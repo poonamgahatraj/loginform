@@ -1,0 +1,54 @@
+label{
+    font-size: 20px;
+}
+
+input{
+    padding:10px;
+}
+
+.form
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.content
+{
+   
+    width:80vw;
+    display:block;
+    position:absolute;
+    top:0px;
+    left:10%;
+    background:white;
+    
+   animation-name: anima;
+   animation-duration: 2s;
+}
+@keyframes anima{
+    from{
+        transform: scale(0)
+    }
+
+    to{
+        transform: scale(1)
+    }
+}
+
+
+.content1
+{
+    background:white;
+    height:100vh;
+   
+}
+
+.container
+{
+    position: relative;
+}
+
+.x:hover
+{
+    color:red;
+}
