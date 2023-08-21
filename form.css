@@ -18,7 +18,7 @@ input{
     width:80vw;
     display:block;
     position:absolute;
-    top:0px;
+    top:100px;
     left:10%;
     background:white;
     
@@ -40,6 +40,8 @@ input{
 {
     background:white;
     height:100vh;
+    width:100vw;
+    position:fixed;
    
 }
 
